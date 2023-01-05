@@ -1,0 +1,9 @@
+print("Change Calculator")
+print("Enter the number of coins you have:")
+quarters = float(input("Quarters: "))
+dimes = float(input("Dimes: "))
+nickels = float(input("Nickels: "))
+pennies = float(input("Pennies: "))
+total = quarters * 0.25 + dimes * 0.10 + nickels * 0.05 + pennies * 0.01
+
+print("The total value of your change is ${}".format(total))
